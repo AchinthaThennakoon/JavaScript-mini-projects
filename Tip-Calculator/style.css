@@ -39,7 +39,26 @@ body{
     margin: 5px 0;
 }
 
-.form input:number{
-    height: 200px;
+.form input[type=number]{
+    /* height: 50px; */
+    padding: 5px;
+    border: 1px solid rgb(230, 230, 230) ;
 }
 
+.container p{
+    margin: 5px 0;
+}
+
+hr{
+    margin: 10px 0;
+    border: 1px solid rgb(230, 230, 230) ;
+}
+
+
+.form input[type=submit]{
+    background: #04AA6D;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
