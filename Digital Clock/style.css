@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(133, 133, 133);
+}
+
+.container{
+    max-width: 400px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 200px auto;
+    justify-content: center;
+}
+
+.header h1{
+    color: white;
+    background-color: blue;
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.clock{
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.time-element{
+    font-size: 48px;
+    font-weight: bold;
+    color: black;
+    margin: 0px 10px;
+}
